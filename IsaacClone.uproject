@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.20",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "IsaacClone",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Paper2D",
+				"Engine",
+				"AIModule"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "RuntimeTests",
+			"Enabled": true
+		},
+		{
+			"Name": "FunctionalTestingEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorTests",
+			"Enabled": true
+		}
+	]
+}
