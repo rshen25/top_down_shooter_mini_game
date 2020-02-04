@@ -7,7 +7,7 @@
 #include "MyCharacter.generated.h"
 
 UCLASS()
-class ISAACCLONE_API AMyCharacter : public ACharacter
+class TWINSTICKMINIGAME_API AMyCharacter : public ACharacter
 {
 	GENERATED_BODY()
 

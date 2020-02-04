@@ -10,7 +10,7 @@
  * 
  */
 UCLASS()
-class ISAACCLONE_API ABossCharacterBasic : public AEnemyCharacter
+class TWINSTICKMINIGAME_API ABossCharacterBasic : public AEnemyCharacter
 {
 	GENERATED_BODY()
 	

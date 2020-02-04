@@ -23,7 +23,7 @@
 /**
  * 
  */
-class ISAACCLONE_API LevelGenerator
+class TWINSTICKMINIGAME_API LevelGenerator
 {
 public:
 	LevelGenerator();

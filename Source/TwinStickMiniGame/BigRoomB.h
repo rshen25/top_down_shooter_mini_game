@@ -4,18 +4,18 @@
 
 #include "CoreMinimal.h"
 #include "Room.h"
-#include "EmptyRoom.generated.h"
+#include "BigRoomB.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class ISAACCLONE_API AEmptyRoom : public ARoom
+class TWINSTICKMINIGAME_API ABigRoomB : public ARoom
 {
 	GENERATED_BODY()
 	
 public:
-	AEmptyRoom();
+	ABigRoomB();
 
 	virtual void Tick(float DeltaTime) override;
 
@@ -25,5 +25,5 @@ protected:
 
 	virtual void InitRoomMeshes() override;
 	
-	
+	virtual void OnOverlapBegin(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult) override;
 };

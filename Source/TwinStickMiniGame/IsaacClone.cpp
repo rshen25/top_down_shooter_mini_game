@@ -3,7 +3,7 @@
 #include "IsaacClone.h"
 #include "Modules/ModuleManager.h"
 
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, IsaacClone, "IsaacClone" );
+IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, TwinStickMiniGame, "TwinStickMiniGame" );
 
 DEFINE_LOG_CATEGORY(LogIsaacClone)
  

@@ -36,7 +36,7 @@ struct FCoords {
 };
 
 UCLASS()
-class ISAACCLONE_API AProceduralGridLevel : public AActor
+class TWINSTICKMINIGAME_API AProceduralGridLevel : public AActor
 {
 	GENERATED_BODY()
 	

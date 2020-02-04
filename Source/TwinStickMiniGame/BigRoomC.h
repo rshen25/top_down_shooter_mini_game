@@ -4,18 +4,18 @@
 
 #include "CoreMinimal.h"
 #include "Room.h"
-#include "BigRoomD.generated.h"
+#include "BigRoomC.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class ISAACCLONE_API ABigRoomD : public ARoom
+class TWINSTICKMINIGAME_API ABigRoomC : public ARoom
 {
 	GENERATED_BODY()
 	
 public:
-	ABigRoomD();
+	ABigRoomC();
 
 	virtual void Tick(float DeltaTime) override;
 

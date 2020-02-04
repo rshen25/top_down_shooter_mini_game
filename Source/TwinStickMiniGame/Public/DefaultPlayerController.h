@@ -10,7 +10,7 @@
  * 
  */
 UCLASS()
-class ISAACCLONE_API ADefaultPlayerController : public APlayerController
+class TWINSTICKMINIGAME_API ADefaultPlayerController : public APlayerController
 {
 	GENERATED_BODY()
 	

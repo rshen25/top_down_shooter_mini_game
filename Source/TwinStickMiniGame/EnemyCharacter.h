@@ -14,7 +14,7 @@
 #include "EnemyCharacter.generated.h"
 
 UCLASS()
-class ISAACCLONE_API AEnemyCharacter : public ACharacter
+class TWINSTICKMINIGAME_API AEnemyCharacter : public ACharacter
 {
 	GENERATED_BODY()
 

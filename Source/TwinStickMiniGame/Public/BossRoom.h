@@ -10,7 +10,7 @@
  * 
  */
 UCLASS()
-class ISAACCLONE_API ABossRoom : public ARoom
+class TWINSTICKMINIGAME_API ABossRoom : public ARoom
 {
 	GENERATED_BODY()
 

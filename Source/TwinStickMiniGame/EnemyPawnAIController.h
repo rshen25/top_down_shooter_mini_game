@@ -9,7 +9,7 @@
  * 
  */
 UCLASS()
-class ISAACCLONE_API AEnemyPawnAIController : public AAIController
+class TWINSTICKMINIGAME_API AEnemyPawnAIController : public AAIController
 {
 	GENERATED_BODY()
 

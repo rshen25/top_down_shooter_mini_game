@@ -8,7 +8,7 @@
 #include "EnemyPawn.generated.h"
 
 UCLASS()
-class ISAACCLONE_API AEnemyPawn : public APawn
+class TWINSTICKMINIGAME_API AEnemyPawn : public APawn
 {
 	GENERATED_BODY()
 
@@ -22,30 +22,29 @@ public:
 	// Sets default values for this pawn's properties
 	AEnemyPawn();
 
-	// Basic Enemy stats such as health, movespeed, damage, etc ---------------
-	UPROPERTY(Category = Stats,EditAnywhere)
-	float Health = 100.0f;
-
-	UPROPERTY(Category = Stats, EditAnywhere)
-	float Damage;
-
-	UPROPERTY(Category = Stats, EditAnywhere)
-	float MoveSpeed = 100.0f;
-
-	UPROPERTY(Category = Stats, EditAnywhere)
-	float ShotSpeed;
-
-	UPROPERTY(Category = Stats, EditAnywhere)
-	bool bCanFly;
-
-	UPROPERTY(Category = Stats, EditAnywhere)
-	bool bCanFire;
-	// END --------------------------------------------------------------------
-
 protected:
-
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	// Basic Enemy stats such as health, movespeed, damage, etc ---------------
+	UPROPERTY(Category = Stats, EditAnywhere)
+		float Health = 100.0f;
+
+	UPROPERTY(Category = Stats, EditAnywhere)
+		float Damage;
+
+	UPROPERTY(Category = Stats, EditAnywhere)
+		float MoveSpeed = 100.0f;
+
+	UPROPERTY(Category = Stats, EditAnywhere)
+		float ShotSpeed;
+
+	UPROPERTY(Category = Stats, EditAnywhere)
+		bool bCanFly;
+
+	UPROPERTY(Category = Stats, EditAnywhere)
+		bool bCanFire;
+	// END --------------------------------------------------------------------
 
 public:	
 	// Called every frame

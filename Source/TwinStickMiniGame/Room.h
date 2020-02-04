@@ -12,7 +12,7 @@
 #include "Room.generated.h"
 
 UCLASS()
-class ISAACCLONE_API ARoom : public AActor
+class TWINSTICKMINIGAME_API ARoom : public AActor
 {
 	GENERATED_BODY()
 	

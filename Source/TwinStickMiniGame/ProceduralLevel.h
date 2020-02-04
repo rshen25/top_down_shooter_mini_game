@@ -7,7 +7,7 @@
 #include "ProceduralLevel.generated.h"
 
 UCLASS()
-class ISAACCLONE_API AProceduralLevel : public AActor
+class TWINSTICKMINIGAME_API AProceduralLevel : public AActor
 {
 	GENERATED_BODY()
 	

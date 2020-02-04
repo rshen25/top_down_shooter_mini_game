@@ -10,7 +10,7 @@
  * The Main Character that the player controls
  */
 UCLASS()
-class ISAACCLONE_API AMainCharacter : public APaperCharacter
+class TWINSTICKMINIGAME_API AMainCharacter : public APaperCharacter
 {
 	GENERATED_BODY()
 

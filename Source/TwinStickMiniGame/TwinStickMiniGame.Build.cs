@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class IsaacClone : ModuleRules
+public class TwinStickMiniGame : ModuleRules
 {
-	public IsaacClone(ReadOnlyTargetRules Target) : base(Target)
+	public TwinStickMiniGame(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
